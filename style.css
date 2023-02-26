@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: "Poppins", sans-serif;
+    background-color: linear-gradiet(to right, #757b87, #909d9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background: url(https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450__340.jpg),no-repeat;
+    height: 100%;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+}
+.container{
+    background: linear-gradient(to bottom, #52ff33 0%, #1fd1ed 100%);
+    padding: 20px;
+    width:350px;
+    text-align:center;
+    margin:0 auto;
+    border: 2px solid #d7d7d7;
+    margin-top:5rem;
+    font-family:  Calibri;
+    border-radius: 5px;
+}
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
+}
+.weather {
+    text-align: center;
+    font-size: 2rem;
+}
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+} /* .weather img{ transform: scale(2); } */
